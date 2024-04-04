@@ -13,7 +13,7 @@
 	</header>
 	<div
 		class="relative bg-cover bg-center text-center py-16 lg:py-32"
-		style="background-image:url('/images/hero5.webp')"
+		style="background-image:url('/images/hero6.avif')"
 	>
 		<h1 class="text-2xl sm:text-4xl lg:text-4xl font-bold text-white">
 			A curated list of recos for Hyderabad
