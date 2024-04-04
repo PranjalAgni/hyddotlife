@@ -8,7 +8,7 @@
 	<header class="bg-white max-w-6xl mx-auto py-4 px-6">
 		<div class="text-xl text-slate-700 font-bold flex justify-center items-center">🕌 hyd.life</div>
 		<div class="text-sm text-slate-700 flex justify-center items-center">
-			<span>Updated at: {data.metadata.modifiedDate}</span>
+			<span>Updated on: {data.metadata.modifiedDate}</span>
 		</div>
 	</header>
 	<div
