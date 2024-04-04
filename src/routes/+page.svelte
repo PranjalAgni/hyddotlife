@@ -1,12 +1,15 @@
 <script lang="ts">
-	import type { SheetsData } from './+page.server';
+	import type { PageData } from './+page.server';
 
-	export let data: SheetsData;
+	export let data: PageData;
 </script>
 
 <div>
 	<header class="bg-white max-w-6xl mx-auto py-4 px-6">
 		<div class="text-xl text-slate-700 font-bold flex justify-center items-center">🕌 hyd.life</div>
+		<div class="text-sm text-slate-700 flex justify-center items-center">
+			<span>Updated at: {data.metadata.modifiedDate}</span>
+		</div>
 	</header>
 	<div
 		class="relative bg-cover bg-center text-center py-16 lg:py-32"
@@ -19,7 +22,7 @@
 	</div>
 
 	<main class="bg-white max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-8">
-		{#each Object.entries(data) as [category, details]}
+		{#each Object.entries(data.listings) as [category, details]}
 			<div class="bg-white border border-gray-200 rounded-lg">
 				<h2 class="flex items-center font-semibold text-lg mb-2 relative">
 					<span class="pl-3">{details.emoji}</span><span class="ml-2 text-slate-700 p-2 text-base"
