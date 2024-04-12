@@ -61,7 +61,14 @@
 				target="_blank"
 				rel="noopener noreferrer">Svelte</a
 			>
+			<br />
+			<span class="text-slate-600 whitespace-nowrap mt-5">
+				<a href="https://forms.gle/sc8n46DBZmUxAHib8" target="_blank" rel="noopener noreferrer">
+					Missed something send suggestions 🚀
+				</a>
+			</span>
 		</div>
+
 		<div class="flex space-x-2 text-slate-500 mx-5">
 			<a href="https://www.pondy.life/" target="_blank" rel="noopener noreferrer"
 				>Inspiration pondy.life</a
